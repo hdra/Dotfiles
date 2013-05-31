@@ -1,0 +1,5 @@
+rm ~/.gtkrc-2.0
+rm ~/.config/gtk-3.0/settings.ini
+
+ln gtk2/gtkrc-2.0 $HOME/.gtkrc-2.0
+ln gtk3/settings.ini $HOME/.config/gtk-3.0/settings.ini
