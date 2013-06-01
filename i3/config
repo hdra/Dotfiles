@@ -6,14 +6,6 @@ workspace_layout tabbed
 # Set mod to Win Key.
 set $mod Mod4
 
-# font for window titles. ISO 10646 = Unicode
-font pango: Ubuntu Mono 11
-# class                 border  backgr. text    indicator
-client.focused          #4c7899 #1B3B53 #9FBDC3 #2E9EF4
-client.focused_inactive #333333 #5f676a #ffffff #484e50
-client.unfocused        #333333 #222222 #888888 #292d2e
-client.urgent           #C10004 #900000 #ffffff #900000
-
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
@@ -31,7 +23,6 @@ bindsym $mod+j focus left
 bindsym $mod+k focus down
 bindsym $mod+l focus up
 bindsym $mod+semicolon focus right
-
 # alternatively, you can use the cursor keys:
 bindsym $mod+Left focus left
 bindsym $mod+Down focus down
@@ -43,7 +34,6 @@ bindsym $mod+Shift+J move left
 bindsym $mod+Shift+K move down
 bindsym $mod+Shift+L move up
 bindsym $mod+Shift+colon move right
-
 # alternatively, you can use the cursor keys:
 bindsym $mod+Shift+Left move left
 bindsym $mod+Shift+Down move down
@@ -52,7 +42,6 @@ bindsym $mod+Shift+Right move right
 
 # split in horizontal orientation
 bindsym $mod+h split h
-
 # split in vertical orientation
 bindsym $mod+v split v
 
@@ -72,33 +61,8 @@ bindsym $mod+space focus mode_toggle
 
 # focus the parent container
 bindsym $mod+a focus parent
-
 # focus the child container
 #bindcode $mod+d focus child
-
-# switch to workspace
-bindsym $mod+1 workspace 1
-bindsym $mod+2 workspace 2
-bindsym $mod+3 workspace 3
-bindsym $mod+4 workspace 4
-bindsym $mod+5 workspace 5
-bindsym $mod+6 workspace 6
-bindsym $mod+7 workspace 7
-bindsym $mod+8 workspace 8
-bindsym $mod+9 workspace 9
-bindsym $mod+0 workspace 10
-
-# move focused container to workspace
-bindsym $mod+Shift+exclam move workspace 1
-bindsym $mod+Shift+at move workspace 2
-bindsym $mod+Shift+numbersign move workspace 3
-bindsym $mod+Shift+dollar move workspace 4
-bindsym $mod+Shift+percent move workspace 5
-bindsym $mod+Shift+asciicircum move workspace 6
-bindsym $mod+Shift+ampersand move workspace 7
-bindsym $mod+Shift+asterisk move workspace 8
-bindsym $mod+Shift+parenleft move workspace 9
-bindsym $mod+Shift+parenright move workspace 10
 
 # reload the configuration file
 bindsym $mod+Shift+C reload
@@ -109,76 +73,128 @@ bindsym $mod+Shift+E exit
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
-        # These bindings trigger as soon as you enter the resize mode
+    # These bindings trigger as soon as you enter the resize mode
 
-        # They resize the border in the direction you pressed, e.g.
-        # when pressing left, the window is resized so that it has
-        # more space on its left
+    # They resize the border in the direction you pressed, e.g.
+    # when pressing left, the window is resized so that it has
+    # more space on its left
 
-bindsym j resize shrink left 10 px or 10 ppt
-bindsym Shift+J resize grow   left 10 px or 10 ppt
+    bindsym j resize shrink left 10 px or 10 ppt
+    bindsym Shift+J resize grow   left 10 px or 10 ppt
 
-bindsym k resize shrink down 10 px or 10 ppt
-bindsym Shift+K resize grow   down 10 px or 10 ppt
+    bindsym k resize shrink down 10 px or 10 ppt
+    bindsym Shift+K resize grow   down 10 px or 10 ppt
 
-bindsym l resize shrink up 10 px or 10 ppt
-bindsym Shift+L resize grow   up 10 px or 10 ppt
+    bindsym l resize shrink up 10 px or 10 ppt
+    bindsym Shift+L resize grow   up 10 px or 10 ppt
 
-bindsym semicolon resize shrink right 10 px or 10 ppt
-bindsym Shift+colon resize grow   right 10 px or 10 ppt
+    bindsym semicolon resize shrink right 10 px or 10 ppt
+    bindsym Shift+colon resize grow   right 10 px or 10 ppt
 
-        # same bindings, but for the arrow keys
-bindsym Left resize shrink left 10 px or 10 ppt
-bindsym Shift+Left resize grow   left 10 px or 10 ppt
+    # same bindings, but for the arrow keys
+    bindsym Left resize shrink left 10 px or 10 ppt
+    bindsym Shift+Left resize grow   left 10 px or 10 ppt
 
-bindsym Down resize shrink down 10 px or 10 ppt
-bindsym Shift+Down resize grow   down 10 px or 10 ppt
+    bindsym Down resize shrink down 10 px or 10 ppt
+    bindsym Shift+Down resize grow   down 10 px or 10 ppt
 
-bindsym Up resize shrink up 10 px or 10 ppt
-bindsym Shift+Up resize grow   up 10 px or 10 ppt
+    bindsym Up resize shrink up 10 px or 10 ppt
+    bindsym Shift+Up resize grow   up 10 px or 10 ppt
 
-bindsym Right resize shrink right 10 px or 10 ppt
-bindsym Shift+Right resize grow   right 10 px or 10 ppt
+    bindsym Right resize shrink right 10 px or 10 ppt
+    bindsym Shift+Right resize grow   right 10 px or 10 ppt
 
-        # back to normal: Enter or Escape
-bindsym Return mode "default"
-bindsym Escape mode "default"
+    # back to normal: Enter or Escape
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
 }
-
 bindsym $mod+r mode "resize"
 
+
+##############################################################
+# My own configuration
+##############################################################
+# font for window titles. ISO 10646 = Unicode
+font pango: Ubuntu Mono 10
+
+# Window title bar colors
+# class                 border  backgr. text    indicator
+client.focused          #3F8AC2 #096BAA #00BAA7 #00DA8E
+client.focused_inactive #333333 #5F676A #ffffff #484e50
+client.unfocused        #333333 #424242 #888888 #292d2e
+client.urgent           #C10004 #900000 #ffffff #900000
+
+# Volume key control
 bindsym XF86AudioRaiseVolume exec amixer -q set Master 5dB+ unmute
 bindsym XF86AudioLowerVolume exec amixer -q set Master 5dB- unmute
-
 # For some reasone toggle other weird channels other than Master as well
 # bindsym XF86AudioMute exec amixer -q set Master toggle
 
+# Banshee control
 bindsym XF86AudioPlay exec banshee --toggle-playing
 bindsym XF86AudioNext exec banshee --next
 bindsym XF86AudioPrev exec banshee --restart-or-previous
 bindsym XF86AudioStop exec banshee --stop
 
+# Print screen
 bindsym Print exec scrot ~/Pictures/capt-$(date '+%Y-%m-%d-%H%M%S').png
-bindsym $mod+Print exec scrot -s ~/Pictures/capt-$(date '+%Y-%m-%d-%H%M%S').png
 
+# Lock Screen
 bindsym $mod+m exec i3lock -c 292929
+
+# actiavte dual monitor
 bindsym XF86Display exec xrandr --output CRT1 --auto --right-of LVDS
 
+# Workspace control
+bindsym $mod+1 workspace 1
+bindsym $mod+2 workspace 2
+bindsym $mod+3 workspace 3
+bindsym $mod+4 workspace 4
+bindsym $mod+5 workspace 5
+bindsym $mod+F1 workspace 6
+bindsym $mod+F2 workspace 7
+bindsym $mod+F3 workspace 8
+bindsym $mod+F4 workspace 9
+bindsym $mod+F5 workspace 10
+# Move window to workspaces
+bindsym $mod+Shift+exclam move workspace 1
+bindsym $mod+Shift+at move workspace 2
+bindsym $mod+Shift+numbersign move workspace 3
+bindsym $mod+Shift+dollar move workspace 4
+bindsym $mod+Shift+percent move workspace 5
+bindsym $mod+Shift+F1 move workspace 6
+bindsym $mod+Shift+F2 move workspace 7
+bindsym $mod+Shift+F3 move workspace 8
+bindsym $mod+Shift+F4 move workspace 9
+bindsym $mod+Shift+F5 move workspace 10
+
+# Automatic put window in last worksapce
 assign [class="banshee"] 10
-assign [class="KeePass Password Safe"]] 10
+assign [class="KeePass"]] 10
+
+# Set window to floating
+for_window [class="eog"] floating enable
+for_window [class="Eog"] floating enable
+
+# Set workspaces
+workspace 6 output CRT1
+workspace 7 output CRT1
+workspace 8 output CRT1
+workspace 9 output CRT1
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
-        position top
-        status_command i3status
-	tray_output LVDS
-        colors{
-            background #232323
-            statusline #DCDCDC
-        }
+    position top
+    status_command i3status
+    tray_output LVDS
+    colors{
+        background #232323
+        statusline #DCDCDC
+    }
 }
 
 # Start Network manager
 exec --no-startup-id nm-applet
+# Set wallpaper
 exec --no-startup-id feh --bg-fill /home/hdra/Pictures/Wallpapers/city.jpg
