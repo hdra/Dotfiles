@@ -1,0 +1,53 @@
+[global_config]
+  enabled_plugins = LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+  title_transmit_bg_color = "#004b4e"
+  title_transmit_fg_color = "#00bd83"
+  borderless = True
+[keybindings]
+  close_term = <Primary>w
+[profiles]
+  [[default]]
+    use_system_font = False
+    scrollback_lines = 1153
+    cursor_shape = underline
+    foreground_color = "#cccccc"
+    show_titlebar = False
+    font = Ubuntu Mono 11
+    background_color = "#1e1e1e"
+  [[solarized-dark]]
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+    use_system_font = False
+    cursor_color = "#eee8d5"
+    foreground_color = "#eee8d5"
+    show_titlebar = False
+    font = Droid Sans Mono 10
+    background_color = "#002b36"
+  [[hndr]]
+    scrollbar_position = hidden
+    palette = "#1c1c1c:#cc0000:#91e046:#eaa93d:#3465a4:#4e3a52:#009799:#d8d8d8:#555753:#d92222:#7ea757:#e1d575:#729fcf:#b497b1:#a5cdcd:#eeeeec"
+    cursor_shape = underline
+    scrollback_lines = 1634
+    background_type = transparent
+    use_system_font = False
+    foreground_color = "#bdd1d4"
+    show_titlebar = False
+    font = Ubuntu Mono 11
+    background_color = "#2f2f2f"
+  [[solarized-light]]
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+    use_system_font = False
+    cursor_color = "#002b36"
+    foreground_color = "#002b36"
+    show_titlebar = False
+    font = Ubuntu Mono 10
+    background_color = "#eee8d5"
+[layouts]
+  [[default]]
+    [[[child1]]]
+      profile = solarized-light
+      type = Terminal
+      parent = window0
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]

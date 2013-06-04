@@ -1,0 +1,32 @@
+{
+	"bold_folder_labels": true,
+	"caret_style": "phase",
+	"color_scheme": "Packages/Theme - Nil/Tubnil.tmTheme",
+	"default_line_ending": "unix",
+	"draw_white_space": "all",
+	"fade_fold_buttons": false,
+	"find_selected_text": true,
+	"font_face": "Ubuntu Mono",
+	"font_size": 11,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"hot_exit": false,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"installed_packages":
+	[
+		"ColorPicker",
+		"Package Control",
+		"SublimeLinter",
+		"Theme - Nil",
+		"Theme - Soda"
+	],
+	"preview_on_click": false,
+	"remember_open_files": false,
+	"shift_tab_unindent": true,
+	"theme": "Nil.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
+}

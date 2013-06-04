@@ -1,0 +1,363 @@
+{
+	"folder_history":
+	[
+		"/media/windows/Users/Hendra/projects/python/hndr.me",
+		"/home/hdra/.config/gtk-3.0",
+		"/home/hdra",
+		"/media/windows/Users/Hendra/projects/python/hndr.me/content"
+	],
+	"last_window_id": 6,
+	"settings":
+	{
+		"new_window_height": 1019.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"empl",
+						"employee_id"
+					]
+				]
+			},
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 75.0,
+				"selected_items":
+				[
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"package",
+						"Package Control: List Packages"
+					],
+					[
+						"pakca",
+						"Package Control: Create Package File"
+					],
+					[
+						"remo",
+						"Package Control: Remove Package"
+					]
+				],
+				"width": 449.0
+			},
+			"console":
+			{
+				"height": 132.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/hdra/.i3/set-wall.sh",
+				"/home/hdra/.i3status.conf",
+				"/home/hdra/.i3/config",
+				"/home/hdra/.i3/lcd-on-left.sh",
+				"/etc/X11/Xsession",
+				"/etc/mdm/Xsession",
+				"/etc/X11/Xsession.options",
+				"/etc/X11/Xsessiom.options",
+				"/home/hdra/.config/settings.ini",
+				"/home/hdra/db/Lab-function.sql",
+				"/home/hdra/.gtkrc-2.0",
+				"/home/hdra/.config/gtk-3.0/settings.ini",
+				"/home/hdra/.i3statusconf",
+				"/home/hdra/relo/Guardfile",
+				"/home/hdra/relo/index.html",
+				"/home/hdra/relo/Gemfile",
+				"/home/hdra/dotfiles/i3/config",
+				"/home/hdra/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+				"/home/hdra/.config/sublime-text-2/Packages/User/Markdown.sublime-settings",
+				"/media/windows/Users/Hendra/projects/python/hndr.me/content/hello_pelican.md",
+				"/media/windows/Users/Hendra/projects/hndr.me/content",
+				"/home/hdra/.ssh/id_rsa.pub"
+			],
+			"find":
+			{
+				"height": 0.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"USERXSESSION"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 500.0,
+				"selected_items":
+				[
+				],
+				"width": 380.0
+			},
+			"show_minimap": false,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 260.0,
+			"status_bar_visible": true
+		},
+		"new_window_width": 958.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"empl",
+						"employee_id"
+					]
+				]
+			},
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 75.0,
+				"selected_items":
+				[
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"package",
+						"Package Control: List Packages"
+					],
+					[
+						"pakca",
+						"Package Control: Create Package File"
+					],
+					[
+						"remo",
+						"Package Control: Remove Package"
+					]
+				],
+				"width": 449.0
+			},
+			"console":
+			{
+				"height": 132.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/hdra/.i3/set-wall.sh",
+				"/home/hdra/.i3status.conf",
+				"/home/hdra/.i3/config",
+				"/home/hdra/.i3/lcd-on-left.sh",
+				"/etc/X11/Xsession",
+				"/etc/mdm/Xsession",
+				"/etc/X11/Xsession.options",
+				"/etc/X11/Xsessiom.options",
+				"/home/hdra/.config/settings.ini",
+				"/home/hdra/db/Lab-function.sql",
+				"/home/hdra/.gtkrc-2.0",
+				"/home/hdra/.config/gtk-3.0/settings.ini",
+				"/home/hdra/.i3statusconf",
+				"/home/hdra/relo/Guardfile",
+				"/home/hdra/relo/index.html",
+				"/home/hdra/relo/Gemfile",
+				"/home/hdra/dotfiles/i3/config",
+				"/home/hdra/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+				"/home/hdra/.config/sublime-text-2/Packages/User/Markdown.sublime-settings",
+				"/media/windows/Users/Hendra/projects/python/hndr.me/content/hello_pelican.md",
+				"/media/windows/Users/Hendra/projects/hndr.me/content",
+				"/home/hdra/.ssh/id_rsa.pub"
+			],
+			"find":
+			{
+				"height": 0.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"USERXSESSION"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"position": "0,0,0,0,0,0,61,958,1080,3286,1080",
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 500.0,
+				"selected_items":
+				[
+				],
+				"width": 380.0
+			},
+			"show_minimap": false,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 260.0,
+			"status_bar_visible": true,
+			"window_id": 2
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}
