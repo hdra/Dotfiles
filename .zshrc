@@ -45,3 +45,8 @@ plugins=(git sublime virtualenvwrapper)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
+
+# set virtualenv home
+export WORKON_HOME=$HOME/.venvs
+export PROJECT_HOME=$HOME/Projects
+
