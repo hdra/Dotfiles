@@ -180,6 +180,7 @@ for_window [class="eog"] floating enable
 for_window [class="Eog"] floating enable
 for_window [class="Guake"] floating enable
 for_window [class="Tilda"] floating enable
+for_window [class="feh"] floating enable
 
 # Set workspaces
 workspace 6 output CRT1
