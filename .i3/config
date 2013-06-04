@@ -173,7 +173,7 @@ bindsym $mod+Shift+F5 move workspace 10
 
 # Automatic put window in last worksapce
 assign [class="banshee"] 10
-assign [class="KeePass"]] 10
+assign [title="KeePass Password Save"]] 10
 
 # Set window to floating
 for_window [class="eog"] floating enable
@@ -181,6 +181,7 @@ for_window [class="Eog"] floating enable
 for_window [class="Guake"] floating enable
 for_window [class="Tilda"] floating enable
 for_window [class="feh"] floating enable
+for_window [title="Open DataBase - "] floating enable
 
 # Set workspaces
 workspace 6 output CRT1
