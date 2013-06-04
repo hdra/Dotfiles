@@ -119,10 +119,13 @@ font pango: Ubuntu Mono 10
 
 # Window title bar colors
 # class                 border  backgr. text    indicator
-client.focused          #3F8AC2 #096BAA #00BAA7 #00DA8E
-client.focused_inactive #333333 #5F676A #ffffff #484e50
+client.focused          #43A3B1 #5BBDCC #151C2E #00DA8E
+client.focused_inactive #43A3B1 #424242 #5BBDCC #484e50
 client.unfocused        #333333 #424242 #888888 #292d2e
 client.urgent           #C10004 #900000 #ffffff #900000
+
+# Border control
+hide_edge_borders both
 
 # Volume key control
 bindsym XF86AudioRaiseVolume exec amixer -q set Master 5dB+ unmute
@@ -136,14 +139,14 @@ bindsym XF86AudioNext exec banshee --next
 bindsym XF86AudioPrev exec banshee --restart-or-previous
 bindsym XF86AudioStop exec banshee --stop
 
-# Print screen
+# Take screenshot
 bindsym Print exec scrot ~/Pictures/capt-$(date '+%Y-%m-%d-%H%M%S').png
 
 # Lock Screen
 bindsym $mod+m exec i3lock -c 292929
 
 # actiavte dual monitor
-bindsym XF86Display exec xrandr --output CRT1 --auto --right-of LVDS
+bindsym XF86Display exec ~/.i3/config/lcd-on-left.sh
 
 # Workspace control
 bindsym $mod+1 workspace 1
@@ -175,6 +178,8 @@ assign [class="KeePass"]] 10
 # Set window to floating
 for_window [class="eog"] floating enable
 for_window [class="Eog"] floating enable
+for_window [class="Guake"] floating enable
+for_window [class="Tilda"] floating enable
 
 # Set workspaces
 workspace 6 output CRT1
@@ -187,14 +192,20 @@ workspace 9 output CRT1
 bar {
     position top
     status_command i3status
-    tray_output LVDS
+    tray_output primary
     colors{
-        background #232323
-        statusline #DCDCDC
+        background #151C2E
+        statusline #5BBDCC
+
+        #class             border  background text
+        focused_workspace  #43A3B1 #5BBDCC #151C2E
+        active_workspace   #43A3B1 #5BBDCC #151C2E
+        inactive_workspace #5BBDCC #151C2E #5BBDCC
+        urgent_workspace   #2f343a #900000 #ffffff
     }
 }
 
 # Start Network manager
 exec --no-startup-id nm-applet
 # Set wallpaper
-exec --no-startup-id feh --bg-fill /home/hdra/Pictures/Wallpapers/city.jpg
+exec --no-startup-id ~/.i3/config/set-wall.sh
