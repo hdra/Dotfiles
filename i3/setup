@@ -1,4 +1,0 @@
-rm ~/.i3/config
-rm ~/.i3status.conf
-ln config ~/.i3/config
-ln i3status.conf ~/.i3status.conf
