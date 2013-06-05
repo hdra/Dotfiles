@@ -149,7 +149,7 @@ bindsym Print exec scrot ~/Pictures/capt-$(date '+%Y-%m-%d-%H%M%S').png
 bindsym $mod+m exec i3lock -c 292929
 
 # actiavte dual monitor
-bindsym XF86Display exec ~/.i3/config/lcd-on-left.sh
+bindsym XF86Display exec $HOME/.i3/config/lcd-on-left.sh
 
 # Workspace control
 bindsym $mod+1 workspace 1
@@ -213,4 +213,4 @@ bar {
 # Start Network manager
 exec --no-startup-id nm-applet
 # Set wallpaper
-exec --no-startup-id ~/.i3/config/set-wall.sh
+exec --no-startup-id $HOME/.i3/config/set-wall.sh
