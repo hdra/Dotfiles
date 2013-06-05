@@ -18,7 +18,8 @@ bindsym $mod+Return exec terminator
 bindsym $mod+Shift+Q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec dmenu_run
+# bindsym $mod+d exec dmenu_run
+bindsym $mod+d exec i3-dmenu-desktop
 
 # change focus
 bindsym $mod+j focus left
@@ -123,7 +124,7 @@ font pango: Ubuntu Mono 10
 # class                 border  backgr. text    indicator
 client.focused          #43A3B1 #5BBDCC #151C2E #00DA8E
 client.focused_inactive #43A3B1 #424242 #5BBDCC #484e50
-client.unfocused        #333333 #424242 #EF9B2E #292d2e
+client.unfocused        #333333 #424242 #B2D264 #292d2e
 client.urgent           #C10004 #900000 #ffffff #900000
 
 # Border control

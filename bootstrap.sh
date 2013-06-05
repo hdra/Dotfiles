@@ -4,7 +4,7 @@ cd "$(dirname "${BASH_SOURCE}")"
 function doIt() {
 	rsync --exclude ".git/" --exclude ".gitmodules" --exclude "bootstrap.sh" \
 		--exclude "README.md" --exclude "*.pyc" \
-		--exclude ".oh-my-zsh/.git" -av --no-perms . ~
+		--exclude ".oh-my-zsh/.git" --exclude "*.last-run" -av --no-perms . ~
 }
 if [ "$1" == "--force" -o "$1" == "-f" ]; then
 	doIt
