@@ -50,3 +50,6 @@ source $ZSH/oh-my-zsh.sh
 export WORKON_HOME=$HOME/.venvs
 export PROJECT_HOME=$HOME/Projects
 
+MYZSH=$HOME/.myzsh
+
+source $MYZSH/aliases

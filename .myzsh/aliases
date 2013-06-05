@@ -1,0 +1,5 @@
+# Enhanced WHOIS lookups
+alias whois="whois -h whois-servers.net"
+
+
+alias hello="echo Hello World"
