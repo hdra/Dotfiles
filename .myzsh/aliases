@@ -3,3 +3,6 @@ alias whois="whois -h whois-servers.net"
 
 
 alias hello="echo Hello World"
+
+alias mountdat="truecrypt -t --mount /media/dat/Crypted\ Volumes/BlackKingdom ~/.truecrypt"
+alias dismountdat="truecrypt -d ~/.truecrypt"
