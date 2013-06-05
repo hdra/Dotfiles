@@ -184,6 +184,8 @@ for_window [class="Eog"] floating enable
 for_window [class="Guake"] floating enable
 for_window [class="Tilda"] floating enable
 for_window [class="feh"] floating enable
+for_window [class="gdebi-gtk"] floating enable
+for_window [class="Gdebi-gtk"] floating enable
 for_window [title="Open DataBase - "] floating enable
 
 # Set workspaces
