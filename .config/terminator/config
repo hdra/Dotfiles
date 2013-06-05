@@ -28,7 +28,7 @@
     cursor_color = "#002b36"
     foreground_color = "#002b36"
     show_titlebar = False
-    font = Ubuntu Mono 12
+    font = Ubuntu Mono 11
     background_color = "#eee8d5"
 [layouts]
   [[default]]
