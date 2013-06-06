@@ -146,10 +146,10 @@ bindsym XF86AudioStop exec banshee --stop
 bindsym Print exec scrot ~/Pictures/capt-$(date '+%Y-%m-%d-%H%M%S').png
 
 # Lock Screen
-bindsym $mod+m exec i3lock -c 292929
+bindsym $mod+m exec ~/.i3/lock.sh
 
 # actiavte dual monitor
-bindsym XF86Display exec $HOME/.i3/config/lcd-on-left.sh
+bindsym XF86Display exec ~/.i3/lcd-on-left.sh
 
 # Workspace control
 bindsym $mod+1 workspace 1
@@ -194,6 +194,11 @@ workspace 7 output CRT1
 workspace 8 output CRT1
 workspace 9 output CRT1
 
+# Start Network manager
+exec --no-startup-id nm-applet
+# Set wallpaper
+exec --no-startup-id sh ~/.i3/set-wall.sh
+
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
@@ -211,8 +216,3 @@ bar {
         urgent_workspace   #2f343a #900000 #ffffff
     }
 }
-
-# Start Network manager
-exec --no-startup-id nm-applet
-# Set wallpaper
-exec --no-startup-id $HOME/.i3/config/set-wall.sh
