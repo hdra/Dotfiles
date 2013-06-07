@@ -17,8 +17,14 @@
 	],
 	"installed_packages":
 	[
+		"AdvancedNewFile",
+		"BracketHighlighter",
 		"ColorPicker",
+		"Jinja2",
 		"Package Control",
+		"Prefixr",
+		"Sass",
+		"Sublime File Navigator",
 		"SublimeLinter",
 		"Theme - Nil",
 		"Theme - Soda"
