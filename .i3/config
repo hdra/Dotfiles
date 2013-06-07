@@ -194,10 +194,11 @@ workspace 7 output CRT1
 workspace 8 output CRT1
 workspace 9 output CRT1
 
-# Start sound control applet
-exec --no-startup-id gnome-sound-applet
-# Start Network manager
+# start tray applications
 exec --no-startup-id nm-applet
+exec --no-startup-id gnome-sound-applet
+exec --no-startup-id ejecter
+
 # Set wallpaper
 exec --no-startup-id sh ~/.i3/set-wall.sh
 
