@@ -49,6 +49,7 @@ source $ZSH/oh-my-zsh.sh
 # set virtualenv home
 export WORKON_HOME=$HOME/.venvs
 export PROJECT_HOME=$HOME/Projects
+export TERM=xterm-256color
 
 MYZSH=$HOME/.myzsh
 
