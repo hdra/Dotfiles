@@ -144,12 +144,14 @@ bindsym XF86AudioStop exec banshee --stop
 
 # Take screenshot
 bindsym Print exec scrot ~/Pictures/capt-$(date '+%Y-%m-%d-%H%M%S').png
-
 # Lock Screen
 bindsym $mod+m exec ~/.i3/lock.sh
-
 # actiavte dual monitor
 bindsym XF86Display exec ~/.i3/lcd-on-left.sh
+# launch thunar
+bindsym $mod+Shift+Return exec thunar
+# launch firefox
+bindsym $mod+Control+Return exec firefox
 
 # Workspace control
 bindsym $mod+1 workspace 1
@@ -179,13 +181,11 @@ assign [class="banshee"] 10
 assign [title="KeePass Password Save"]] 10
 
 # Set window to floating
-for_window [class="eog"] floating enable
-for_window [class="Eog"] floating enable
+for_window [class="[Ee]og"] floating enable
 for_window [class="Guake"] floating enable
 for_window [class="Tilda"] floating enable
 for_window [class="feh"] floating enable
-for_window [class="gdebi-gtk"] floating enable
-for_window [class="Gdebi-gtk"] floating enable
+for_window [class="[Gg]debi-gtk"] floating enable
 for_window [title="Open DataBase - "] floating enable
 
 # Set workspaces
@@ -194,6 +194,8 @@ workspace 7 output CRT1
 workspace 8 output CRT1
 workspace 9 output CRT1
 
+# Start sound control applet
+exec --no-startup-id gnome-sound-applet
 # Start Network manager
 exec --no-startup-id nm-applet
 # Set wallpaper
