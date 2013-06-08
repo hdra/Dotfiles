@@ -7,43 +7,33 @@
   close_term = <Primary>w
 [profiles]
   [[default]]
-    background_color = "#1e1e1e"
-    foreground_color = "#cccccc"
+    palette = "#bbdce7:#6b6262:#a3a3a3:#beb37f:#b0b7c0:#d1bcd5:#7d8889:#d3d7cf:#50613f:#a97777:#b0bfa0:#b4b091:#a1b4c9:#c1acbf:#79afaf:#eeeeec"
     use_system_font = False
-    font = Droid Sans Mono 10
+    cursor_color = "#ed7979"
+    foreground_color = "#f65413"
     show_titlebar = False
-  [[solarized-dark]]
-    use_theme_colors = False
-    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
-    background_color = "#002b36"
-    foreground_color = "#eee8d5"
-    cursor_color = "#eee8d5"
-    use_system_font = False
-    font = Droid Sans Mono 10
-    show_titlebar = False
-  [[solarized-light]]
-    use_theme_colors = False
-    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
-    background_color = "#eee8d5"
-    foreground_color = "#002b36"
-    cursor_color = "#002b36"
-    use_system_font = False
     font = Ubuntu Mono 11
+    background_color = "#7e9898"
+  [[square]]
+    palette = "#050505:#e9897c:#b6377d:#ecebbe:#a9cdeb:#75507b:#c9caec:#f2f2f2:#141414:#f99286:#c3f786:#fcfbcc:#b6defb:#ad7fa8:#d7d9fc:#e2e2e2"
+    use_system_font = False
+    cursor_color = "#fcfbcc"
+    foreground_color = "#acacab"
     show_titlebar = False
+    font = Ubuntu Mono 11
+    background_color = "#1a1a1a"
   [[zenburn]]
-    use_theme_colors = False
-    background_color = "#3f3f3f"
-    foreground_color = "#dcdccc"
-    cursor_color = "#f0dfaf"
-    pallete = "#1e2320:#705050:#60b48a:#dfaf8f:#506070:#dc8cc3:#8cd0d3:#dcdccc:#709080:#dca3a3:#c3bf9f:#f0dfaf:#94bff3:#ec93d3:#93e0e3:#ffffff"
+    palette = "#1e2320:#705050:#60b48a:#dfaf8f:#506070:#dc8cc3:#8cd0d3:#dcdccc:#709080:#dca3a3:#c3bf9f:#f0dfaf:#94bff3:#ec93d3:#93e0e3:#ffffff"
     use_system_font = False
-    font = Ubuntu Mono 11
+    cursor_color = "#f0dfaf"
+    foreground_color = "#dcdccc"
     show_titlebar = False
-
+    font = Ubuntu Mono 11
+    background_color = "#3f3f3f"
 [layouts]
   [[default]]
     [[[child1]]]
-      profile = solarized-light
+      profile = zenburn
       type = Terminal
       parent = window0
     [[[window0]]]
