@@ -33,10 +33,10 @@ bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
 # move focused window
-bindsym $mod+Shift+J move left
-bindsym $mod+Shift+K move down
-bindsym $mod+Shift+L move up
-bindsym $mod+Shift+colon move right
+bindsym $mod+Shift+H move left
+bindsym $mod+Shift+J move down
+bindsym $mod+Shift+K move up
+bindsym $mod+Shift+L move right
 # alternatively, you can use the cursor keys:
 bindsym $mod+Shift+Left move left
 bindsym $mod+Shift+Down move down
@@ -44,7 +44,7 @@ bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
 # split in horizontal orientation
-bindsym $mod+h split h
+bindsym $mod+b split h
 # split in vertical orientation
 bindsym $mod+v split v
 
@@ -147,7 +147,7 @@ bindsym Print exec scrot ~/Pictures/capt-$(date '+%Y-%m-%d-%H%M%S').png
 # Lock Screen
 bindsym $mod+m exec ~/.i3/lock.sh
 # actiavte dual monitor
-bindsym XF86Display exec ~/.i3/lcd-on-left.sh
+bindsym XF86Display exec --no-startup-id ~/.i3/lcd-on-left.sh
 # launch thunar
 bindsym $mod+Shift+Return exec thunar
 # launch firefox
@@ -198,6 +198,7 @@ workspace 9 output CRT1
 exec --no-startup-id nm-applet
 exec --no-startup-id gnome-sound-applet
 exec --no-startup-id ejecter
+exec --no-startup-id touchpad-indicator
 
 # Set wallpaper
 exec --no-startup-id sh ~/.i3/set-wall.sh
