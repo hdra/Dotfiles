@@ -10,3 +10,5 @@ alias dismountdat="truecrypt -t -d ~/.truecrypt"
 alias apachestop="sudo /etc/init.d/apache2 stop"
 alias apachestart="sudo /etc/init.d/apache2 start"
 alias apacherestart="sudo /etc/init.d/apache2 restart"
+
+alias subhere="~/.myscripts/./subhere"
