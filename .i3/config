@@ -65,7 +65,7 @@ bindsym $mod+space focus mode_toggle
 # focus the parent container
 bindsym $mod+a focus parent
 # focus the child container
-bindcode $mod+c focus child
+bindsym $mod+c focus child
 
 # reload the configuration file
 bindsym $mod+Shift+C reload
@@ -83,16 +83,16 @@ mode "resize" {
     # more space on its left
 
     bindsym j resize shrink left 10 px or 10 ppt
-    bindsym Shift+J resize grow   left 10 px or 10 ppt
+    bindsym Shift+H resize grow   left 10 px or 10 ppt
 
     bindsym k resize shrink down 10 px or 10 ppt
-    bindsym Shift+K resize grow   down 10 px or 10 ppt
+    bindsym Shift+J resize grow   down 10 px or 10 ppt
 
     bindsym l resize shrink up 10 px or 10 ppt
-    bindsym Shift+L resize grow   up 10 px or 10 ppt
+    bindsym Shift+K resize grow   up 10 px or 10 ppt
 
     bindsym semicolon resize shrink right 10 px or 10 ppt
-    bindsym Shift+colon resize grow   right 10 px or 10 ppt
+    bindsym Shift+L resize grow   right 10 px or 10 ppt
 
     # same bindings, but for the arrow keys
     bindsym Left resize shrink left 10 px or 10 ppt
