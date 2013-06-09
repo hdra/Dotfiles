@@ -47,7 +47,7 @@
 [layouts]
   [[default]]
     [[[child1]]]
-      profile = solarized-light
+      profile = square
       type = Terminal
       parent = window0
     [[[window0]]]

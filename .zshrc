@@ -47,9 +47,11 @@ source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
 
 # set virtualenv home
-export WORKON_HOME=$HOME/.venvs
-export PROJECT_HOME=$HOME/Projects
-export TERM=xterm-256color
+#export WORKON_HOME=$HOME/.venvs
+#export PROJECT_HOME=$HOME/Projects
+#export TERM=xterm-256color
+#export PATH="/usr/local/heroku/bin:$PATH"
+#export PATH="~/.myscripts:$PATH"
 
 MYZSH=$HOME/.myzsh
 
