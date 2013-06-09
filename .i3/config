@@ -65,7 +65,7 @@ bindsym $mod+space focus mode_toggle
 # focus the parent container
 bindsym $mod+a focus parent
 # focus the child container
-#bindcode $mod+d focus child
+bindcode $mod+c focus child
 
 # reload the configuration file
 bindsym $mod+Shift+C reload
