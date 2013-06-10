@@ -199,6 +199,7 @@ exec --no-startup-id nm-applet
 exec --no-startup-id gnome-sound-applet
 exec --no-startup-id ejecter
 exec --no-startup-id touchpad-indicator
+exec --no-startup-id rescuetime
 
 # Set wallpaper
 exec --no-startup-id sh ~/.i3/set-wall.sh
