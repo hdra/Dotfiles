@@ -139,7 +139,9 @@ bindsym XF86AudioLowerVolume exec amixer -q set Master 5dB- unmute
 # Banshee control
 bindsym XF86AudioPlay exec banshee --toggle-playing
 bindsym XF86AudioNext exec banshee --next
+bindsym Control+F12 exec banshee --next
 bindsym XF86AudioPrev exec banshee --restart-or-previous
+bindsym Control+F11 exec banshee --restart-or-previous
 bindsym XF86AudioStop exec banshee --stop
 
 # Take screenshot

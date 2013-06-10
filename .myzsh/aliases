@@ -12,3 +12,4 @@ alias apachestart="sudo /etc/init.d/apache2 start"
 alias apacherestart="sudo /etc/init.d/apache2 restart"
 
 #alias subhere="~/.myscripts/./subhere"
+alias emacs="emacs -nw"
