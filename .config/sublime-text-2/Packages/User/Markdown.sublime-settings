@@ -1,6 +1,7 @@
 {
     "trim_trailing_white_space_on_save": false,
     "rulers": [88, 100],
+    "word_wrap": false,
     "spell_check": true,
     "dictionary": "Packages/Language - English/en_US.dic"
 }
