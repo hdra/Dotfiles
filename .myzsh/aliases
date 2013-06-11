@@ -1,8 +1,11 @@
 # Enhanced WHOIS lookups
 alias whois="whois -h whois-servers.net"
 
-
-alias hello="echo Hello World"
+alias ls="ls --color -h --group-directories-first"
+alias lsa='ls -lah'
+alias ll='ls -l'
+alias la='ls -lA'
+alias sl=ls # often screw this up
 
 alias mountdat="truecrypt -t --mount /media/dat/Crypted\ Volumes/dat ~/.truecrypt"
 alias dismountdat="truecrypt -t -d ~/.truecrypt"
@@ -11,6 +14,5 @@ alias apachestop="sudo /etc/init.d/apache2 stop"
 alias apachestart="sudo /etc/init.d/apache2 start"
 alias apacherestart="sudo /etc/init.d/apache2 restart"
 
-#alias subhere="~/.myscripts/./subhere"
 alias emacs="emacs -nw"
 alias xclip="xclip -selection c"
