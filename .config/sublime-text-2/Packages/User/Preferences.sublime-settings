@@ -1,6 +1,7 @@
 {
 	"bold_folder_labels": true,
 	"caret_style": "phase",
+	"color_scheme": "Packages/Dayle Rees Color Schemes/Darkside.tmTheme",
 	"default_line_ending": "unix",
 	"draw_white_space": "all",
 	"fade_fold_buttons": false,
@@ -12,12 +13,12 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"Vintage",
-		"Dayle Rees Color Schemes"
+		"Vintage"
 	],
 	"preview_on_click": false,
 	"remember_open_files": false,
 	"shift_tab_unindent": true,
+	"theme": "Soda Dark.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true
 }
