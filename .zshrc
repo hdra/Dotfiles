@@ -45,9 +45,8 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-
-# set virtualenv home
-
 MYZSH=$HOME/.myzsh
 
 source $MYZSH/aliases
+source $MYZSH/envs
+source $MYZSH/extras

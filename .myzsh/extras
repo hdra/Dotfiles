@@ -1,0 +1,2 @@
+# Virtualenv wrapper
+source /usr/local/bin/virtualenvwrapper.sh

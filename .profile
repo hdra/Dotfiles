@@ -21,7 +21,15 @@ if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
 
-### Added by the Heroku Toolbelt
-
 # Remap capslock as control
 /usr/bin/setxkbmap -option 'ctrl:nocaps'
+
+# virtualenvwrapper variables
+export WORKON_HOME=$HOME/.venvs
+export PROJECT_HOME=$HOME/Projects
+
+# Heroku to Path
+PATH="/usr/local/heroku/bin:$PATH"
+
+# add custom scripts to path
+PATH="$HOME/.myscripts:$PATH"
