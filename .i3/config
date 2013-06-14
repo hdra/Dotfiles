@@ -189,6 +189,7 @@ for_window [class="Tilda"] floating enable
 for_window [class="feh"] floating enable
 for_window [class="[Gg]debi-gtk"] floating enable
 for_window [title="Open DataBase - MYPASSES.kdbx"] floating enable
+for_window [class="[Ff]ile-roller"] floating enable
 
 # Set workspaces
 workspace 6 output CRT1
