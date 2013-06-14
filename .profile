@@ -33,3 +33,6 @@ PATH="/usr/local/heroku/bin:$PATH"
 
 # add custom scripts to path
 PATH="$HOME/.myscripts:$PATH"
+
+# Load RVM into a shell session *as a function*
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"

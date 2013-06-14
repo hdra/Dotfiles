@@ -44,9 +44,11 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
 # Customize to your needs...
 MYZSH=$HOME/.myzsh
-
 source $MYZSH/aliases
 source $MYZSH/envs
 source $MYZSH/extras
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
