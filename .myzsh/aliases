@@ -16,3 +16,5 @@ alias apacherestart="sudo /etc/init.d/apache2 restart"
 
 alias emacs="emacs -nw"
 alias xclip="xclip -selection c"
+
+alias httphere="python -m SimpleHTTPServer"
