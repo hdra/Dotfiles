@@ -22,7 +22,7 @@ if [ -d "$HOME/bin" ] ; then
 fi
 
 # Remap capslock as control
-/usr/bin/setxkbmap -option 'ctrl:nocaps'
+#/usr/bin/setxkbmap -option 'ctrl:nocaps'
 
 # virtualenvwrapper variables
 export WORKON_HOME=$HOME/.venvs
