@@ -1,2 +1,7 @@
 # Virtualenv wrapper
 source /usr/local/bin/virtualenvwrapper.sh
+
+
+# Release Ctrl-S binding from terminal
+stty ixany
+stty ixoff -ixon
