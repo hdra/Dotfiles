@@ -1,11 +1,16 @@
+execute pathogen#infect()
+syntax on
+filetype plugin indent on
 set t_Co=256
-syntax enable
-"set background=light
-"let g:solarized_termcolors=256
-colorscheme Monokai
+set background=light
+let g:solarized_contrast="high"
+let g:solarized_visibility="high"
+let g:solarized_termcolors=256
+colorscheme solarized 
 
 set nocompatible
 set backupdir=~/.vim/tmp
+set undodir^=~/.vim/tmp
 set noswapfile
 set showmode
 set showcmd
