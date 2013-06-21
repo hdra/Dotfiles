@@ -2,29 +2,30 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 set t_Co=256
-set background=light
-let g:solarized_contrast="high"
-let g:solarized_visibility="high"
-let g:solarized_termcolors=256
-colorscheme solarized 
+"set background=light
+"let g:solarized_contrast="high"
+"let g:solarized_visibility="high"
+"let g:solarized_termcolors=256
+colorscheme clouds_midnight
 
 set nocompatible
 set backupdir=~/.vim/tmp
 set undodir^=~/.vim/tmp
 set noswapfile
+set undofile
 set showmode
 set showcmd
 set wildmenu
 set cursorline
-
 set number	" Show line numbers
 set nowrap	" Wrap lines
 set linebreak	" Break lines at word (requires Wrap lines)
 set showbreak=+++ 	" Wrap-broken line prefix
-
 set showmatch	" Highlight matching brace
 set visualbell	" Use visual bell (no beeping)
 
+set hidden
+set encoding=utf-8
 set hlsearch	" Highlight all search results
 set smartcase	" Enable smart-case search
 set ignorecase	" Always case-insensitive
