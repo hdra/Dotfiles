@@ -2,11 +2,11 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 set t_Co=256
-"set background=light
-"let g:solarized_contrast="high"
-"let g:solarized_visibility="high"
-"let g:solarized_termcolors=256
-colorscheme clouds_midnight
+set background=light
+let g:solarized_contrast="high"
+let g:solarized_visibility="high"
+let g:solarized_termcolors=256
+colorscheme solarized 
 
 set nocompatible
 set backupdir=~/.vim/tmp
