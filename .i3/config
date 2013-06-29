@@ -216,7 +216,7 @@ bar {
 #    mode hide
 #    modifier Mod1
     colors{
-        background #151C2E
+        background #0C0C11
         statusline #5BBDCC
 
         #class             border  background text
