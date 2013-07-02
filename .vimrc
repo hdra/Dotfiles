@@ -1,7 +1,7 @@
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
-set t_Co=256
+set t_Co=16
 "set background=light
 "let g:solarized_contrast="high"
 "let g:solarized_visibility="high"
