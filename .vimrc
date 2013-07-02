@@ -2,11 +2,11 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 set t_Co=256
-set background=dark
-let g:solarized_contrast="high"
-let g:solarized_visibility="high"
-let g:solarized_termcolors=256
-colorscheme solarized 
+"set background=light
+"let g:solarized_contrast="high"
+"let g:solarized_visibility="high"
+"let g:solarized_termcolors=256
+"colorscheme solarized
 
 set nocompatible
 set backupdir=~/.vim/tmp
@@ -43,9 +43,15 @@ set undolevels=1000	" Number of undo levels
 set backspace=indent,eol,start	" Backspace behaviour
 set cmdheight=2
 
-nmap <C-w> :q!<CR>
-imap <C-w> <Esc>:q!<CR>
+nmap <F4> :q!<CR>
+imap <F4> <Esc>:q!<CR>
 nmap <C-s> :w<CR>
 imap <C-s> <Esc>:w<CR>
 nmap <C-u> :u<CR>
 imap <C-u> <Esc>:u<CR>
+
+" Maps Alt-[h,j,k,l] to resizing a window split
+map <silent> <C-h> <C-w><
+map <silent> <C-j> <C-w>-
+map <silent> <C-k> <C-w>+
+map <silent> <C-l> <C-w>>

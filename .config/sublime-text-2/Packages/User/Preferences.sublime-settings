@@ -1,7 +1,7 @@
 {
 	"bold_folder_labels": true,
 	"caret_style": "phase",
-	"color_scheme": "Packages/Dayle Rees Color Schemes/Contrast/Sourlick.tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Monokai Bright.tmTheme",
 	"default_line_ending": "unix",
 	"draw_white_space": "all",
 	"fade_fold_buttons": false,
@@ -11,12 +11,15 @@
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
-	"ignored_packages":["Vintage"],
-	"vintage_start_in_command_mode":true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
 	"preview_on_click": false,
 	"remember_open_files": false,
 	"shift_tab_unindent": true,
 	"theme": "Soda Dark.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true
+	"trim_trailing_white_space_on_save": true,
+	"vintage_start_in_command_mode": true
 }
