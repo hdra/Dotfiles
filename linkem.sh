@@ -11,7 +11,7 @@ else
     location=${location%/*}
 fi
 
-excludes='+(README.md|boostrap.sh|linkem.sh|.git|.git/*|*/.git|.gitignore|.gitmodules)'
+excludes='+(README.md|linkem.sh|.oh-my-zsh|.oh-my-zsh/*|.git|.git/*|*/.git|.gitignore|.gitmodules)'
 
 echo "Linking.."
 
