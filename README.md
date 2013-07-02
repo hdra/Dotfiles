@@ -1,3 +1,3 @@
-My dotfiles. Uses the bootstrap method by [mathiasbynens][link].
+My dotfiles. Setup script based on [this][link].
 
-[link]: https://github.com/mathiasbynens/dotfiles
+[link]: https://github.com/cdown/dotfiles/blob/master/setup
