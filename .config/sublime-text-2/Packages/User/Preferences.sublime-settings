@@ -1,7 +1,7 @@
 {
 	"bold_folder_labels": true,
 	"caret_style": "phase",
-	"color_scheme": "Packages/Color Scheme - Default/Monokai Bright.tmTheme",
+	"color_scheme": "Packages/Solarized Color Scheme/Solarized (light).tmTheme",
 	"default_line_ending": "unix",
 	"draw_white_space": "all",
 	"fade_fold_buttons": false,
@@ -18,7 +18,7 @@
 	"preview_on_click": false,
 	"remember_open_files": false,
 	"shift_tab_unindent": true,
-	"theme": "Soda Dark.sublime-theme",
+	"theme": "Soda Light.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"vintage_start_in_command_mode": true
