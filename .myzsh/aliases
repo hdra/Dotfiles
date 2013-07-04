@@ -18,3 +18,4 @@ alias emacs="emacs -nw"
 alias xclip="xclip -selection c"
 
 alias httphere="python -m SimpleHTTPServer 8899"
+alias pcat="pygmentize"
