@@ -12,9 +12,7 @@
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
 	"ignored_packages":
-	[
-		"Vintage"
-	],
+	[],
 	"preview_on_click": false,
 	"remember_open_files": false,
 	"shift_tab_unindent": true,
