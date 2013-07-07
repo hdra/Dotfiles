@@ -1,2 +1,5 @@
 # Terminal color support
 export TERM=xterm-256color
+
+# EDITOR
+export EDITOR='vim'

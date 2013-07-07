@@ -21,3 +21,4 @@ alias httphere="python -m SimpleHTTPServer 8899"
 alias pcat="pygmentize"
 
 alias k="gnome-open"
+alias mux="tmuxinator"
