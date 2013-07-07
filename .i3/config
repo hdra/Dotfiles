@@ -218,7 +218,7 @@ bar {
     status_command i3status
     tray_output primary
     mode hide
-    modifier Mod1
+    modifier Mod4
     colors{
         background #0C0C11
         statusline #5BBDCC
