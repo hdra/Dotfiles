@@ -152,7 +152,7 @@ bindsym $mod+m exec ~/.i3/lock.sh
 # actiavte dual monitor
 bindsym XF86Display exec --no-startup-id ~/.i3/lcd-on-left.sh
 # launch thunar
-bindsym $mod+Shift+Return exec marlin
+bindsym $mod+Shift+Return exec thunar 
 # launch firefox
 bindsym $mod+Control+Return exec firefox
 
