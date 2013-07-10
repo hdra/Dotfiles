@@ -3,3 +3,7 @@ export TERM=xterm-256color
 
 # EDITOR
 export EDITOR='vim'
+
+# HISTORY LINES
+HISTSIZE=1000
+SAVEHIST=1000

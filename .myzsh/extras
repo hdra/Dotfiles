@@ -1,7 +1,17 @@
+# RVM
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+# Load RVM into a shell session *as a function*
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+
+# Load Tmuxinator
+[[ -s $HOME/.tmuxinator/scripts/tmuxinator ]] && source $HOME/.tmuxinator/scripts/tmuxinator
+
 # Virtualenv wrapper
 source /usr/local/bin/virtualenvwrapper.sh
-
 
 # Release Ctrl-S binding from terminal
 stty ixany
 stty ixoff -ixon
+
+# set ls-colors
+eval `dircolors ~/.dir_colors/dircolors.ansi-dark`

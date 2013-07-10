@@ -44,16 +44,8 @@ plugins=(git tmuxinator)
 
 source $ZSH/oh-my-zsh.sh
 
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
-# Load RVM into a shell session *as a function*
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
-
-# Load Tmuxinator
-[[ -s $HOME/.tmuxinator/scripts/tmuxinator ]] && source $HOME/.tmuxinator/scripts/tmuxinator
-
 # Customize to your needs...
 MYZSH=$HOME/.myzsh
 source $MYZSH/aliases
 source $MYZSH/envs
 source $MYZSH/extras
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
