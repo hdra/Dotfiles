@@ -191,7 +191,7 @@ for_window [class="feh"] floating enable
 for_window [class="[Gg]debi-gtk"] floating enable
 for_window [title="Open DataBase - MYPASSES.kdbx"] floating enable
 for_window [class="[Ff]ile-roller"] floating enable
-
+for_window [title="[Ff]ile [Oo]peration [Pp]rogress"] floating enable
 # Set workspaces
 workspace 6 output CRT1
 workspace 7 output CRT1
@@ -204,6 +204,7 @@ exec --no-startup-id gnome-sound-applet
 exec --no-startup-id ejecter
 exec --no-startup-id touchpad-indicator
 exec --no-startup-id rescuetime
+exec --no-startup-id dropbox start
 
 # Set wallpaper
 exec --no-startup-id sh ~/.i3/set-wall.sh
