@@ -1,0 +1,7 @@
+function st(){
+    if [ -z "$1" ]; then
+            (subl . &> /dev/null &);
+        else
+            (subl "$1" &> /dev/null &);
+    fi
+}
