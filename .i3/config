@@ -210,6 +210,7 @@ exec --no-startup-id dropbox start
 exec --no-startup-id sh ~/.i3/set-wall.sh
 
 # start some app
+exec --no-startup-id gnome-keyring-daemon --start
 exec --no-startup-id keepass2
 
 # Start i3bar to display a workspace bar (plus the system information i3status
@@ -219,7 +220,8 @@ bar {
     status_command i3status
     tray_output primary
     mode hide
-    modifier Mod4
+    
+    modifier $mod
     colors{
         background #0C0C11
         statusline #5BBDCC
