@@ -49,3 +49,4 @@ MYZSH=$HOME/.myzsh
 source $MYZSH/aliases
 source $MYZSH/envs
 source $MYZSH/extras
+source $MYZSH/functions
