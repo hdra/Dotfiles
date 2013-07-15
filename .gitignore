@@ -1,3 +1,4 @@
 *.pyc
 *.last-run
+oh-my-zsh
 .vim/tmp
