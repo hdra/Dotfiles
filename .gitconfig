@@ -12,4 +12,4 @@
 [status]
     color = auto
 [push]
-	default = matching
+	default = simple
