@@ -11,3 +11,5 @@
 
 [status]
     color = auto
+[push]
+	default = matching
