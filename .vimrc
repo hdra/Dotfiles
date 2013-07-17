@@ -1,14 +1,20 @@
-execute pathogen#infect()
-syntax on
-filetype plugin indent on
-set t_Co=16
-"set background=light
-"let g:solarized_contrast="high"
-"let g:solarized_visibility="high"
-"let g:solarized_termcolors=256
-"colorscheme solarized
-
 set nocompatible
+filetype off
+
+set rtp+=~/.vim/bundle/vundle
+call vundle#rc()
+
+" Let Vundle manage Vundle
+Bundle 'gmarik/vundle'
+"" My bundles
+Bundle 'scrooloose/nerdtree'
+Bundle 'Command-T'
+
+filetype plugin indent on
+set t_Co=256
+colorscheme moria
+hi CursorLine cterm=none
+
 set backupdir=~/.vim/tmp
 set undodir^=~/.vim/tmp
 set noswapfile
@@ -30,8 +36,9 @@ set hlsearch	" Highlight all search results
 set smartcase	" Enable smart-case search
 set ignorecase	" Always case-insensitive
 set incsearch	" Searches for strings incrementally
+set listchars=eol:↲,tab:⇛-,trail:⋅,extends:>,precedes:<,nbsp:#
+set list
 
-set autoindent	" Auto-indent new lines
 set expandtab	" Use spaces instead of tabs
 set shiftwidth=4	" Number of auto-indent spaces
 set smartindent	" Enable smart-indent
