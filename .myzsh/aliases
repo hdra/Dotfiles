@@ -22,3 +22,6 @@ alias pcat="pygmentize"
 
 alias k="gnome-open"
 alias mux="tmuxinator"
+
+alias j="jump"
+alias m="mark"
