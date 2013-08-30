@@ -1,0 +1,9 @@
+# Create archivefile.zip containing the all the files and
+# directory of the current dir, excluding dotfiles
+zip -r archivefile1 *
+
+# Same as above, but includes hidden files
+zip -r archivefile1 *
+
+# The `-r` flag are used to go through the all the directories
+# recursively.
