@@ -66,7 +66,10 @@ def create_cheatsheet(cheat, cheatsheets):
         print ('Cheatsheet "%s" already exists' % cheat)
         exit()
 
-    import cheatsheets as cs
+    try:
+        import cheatsheets as cs
+    except ImportError:
+        pass
 
     # Attempt to write the new cheatsheet to the user's ~/.cheat dir if it
     # exists. If it does not exist, attempt to create it.
