@@ -37,7 +37,7 @@ set smartcase	" Enable smart-case search
 set ignorecase	" Always case-insensitive
 set incsearch	" Searches for strings incrementally
 set listchars=eol:↲,tab:⇛-,trail:⋅,extends:>,precedes:<,nbsp:#
-set list
+"set list
 
 set expandtab	" Use spaces instead of tabs
 set shiftwidth=4	" Number of auto-indent spaces
