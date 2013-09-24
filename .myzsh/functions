@@ -1,7 +1,7 @@
 function st(){
     if [ -z "$1" ]; then
-            (subl . &> /dev/null &);
+            (/home/hndr/Apps/Sublime\ Text\ 2/sublime_text . &> /dev/null &);
         else
-            (subl "$1" &> /dev/null &);
+            (/home/hndr/Apps/Sublime\ Text \ 2/sublime_text "$1" &> /dev/null &);
     fi
 }
