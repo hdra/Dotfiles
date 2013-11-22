@@ -51,7 +51,7 @@ source $MYZSH/envs
 source $MYZSH/extras
 source $MYZSH/functions
 
-// fortune | cowsay -f stegosaurus
+# fortune | cowsay -f stegosaurus
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
