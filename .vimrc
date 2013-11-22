@@ -11,8 +11,8 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'Command-T'
 
 filetype plugin indent on
-set t_Co=256
-colorscheme moria
+"set t_Co=256
+"colorscheme moria
 hi CursorLine cterm=none
 
 set backupdir=~/.vim/tmp
