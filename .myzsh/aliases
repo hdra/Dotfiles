@@ -25,3 +25,5 @@ alias mux="tmuxinator"
 
 alias j="jump"
 alias m="mark"
+
+alias arts="php artisan"
